@@ -40,4 +40,72 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    //glide
+    api 'com.github.bumptech.glide:glide:4.13.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
+
+    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4'
+
+//    //SPI
+//    //recycle列表
+//    api 'androidx.recyclerview:recyclerview:1.1.0'
+//
+//    //工具库
+    api 'com.blankj:utilcodex:1.31.0'
+//
+//    //RxJava
+//    api 'io.reactivex.rxjava2:rxjava:2.1.1'
+//    api 'io.reactivex.rxjava2:rxandroid:2.1.1'
+//    //okhttp android 4.4 只能使用3.12.1以下版本
+//    api 'com.squareup.okhttp3:okhttp:3.12.8'
+//    api 'com.squareup.okhttp3:logging-interceptor:3.12.8'
+//    api 'com.squareup.retrofit2:retrofit:2.6.4'   //4.4系统切勿升级
+//    api 'com.squareup.retrofit2:adapter-rxjava2:2.6.4'  //4.4系统切勿升级
+//    api 'com.squareup.retrofit2:converter-gson:2.6.4'  //4.4系统切勿升级
+//
+//    //glide
+//    api 'com.github.bumptech.glide:glide:4.13.2'
+//    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
+//
+//    //阿里FastJson
+//    api 'com.alibaba:fastjson:1.2.72'
+//
+//    //腾讯Xlog日志上传(https://github.com/Tencent/mars/wiki/Mars-Android-%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97)
+//    api 'com.tencent.mars:mars-xlog:1.2.6'
+//
+//    //下拉刷新 https://github.com/scwang90/SmartRefreshLayout
+//    api 'com.scwang.smart:refresh-layout-kernel:2.0.1'
+//    api 'com.scwang.smart:refresh-header-classics:2.0.1'
+//    api 'com.scwang.smart:refresh-footer-classics:2.0.1'
+//
+//    //MMKV 轻量级数据存储可取代 sharePreferences(https://github.com/Tencent/MMKV)
+//    api 'com.tencent:mmkv-static:1.2.10'
+//
+//    //RxLifecycle https://github.com/trello/RxLifecycle
+//    api 'com.trello.rxlifecycle2:rxlifecycle:2.2.2', {
+//        exclude module: 'rxjava'
+//        exclude module: 'jsr305'
+//    }
+//    api 'com.trello.rxlifecycle2:rxlifecycle-android:2.2.2', {
+//        exclude module: 'support-annotations'
+//        exclude module: 'rxjava'
+//        exclude module: 'rxandroid'
+//        exclude module: 'rxlifecycle'
+//    }
+//    //https://github.com/CymChad/BaseRecyclerViewAdapterHelper/blob/master/readme/0-BaseRecyclerViewAdapterHelper.md
+//    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4'
+//    //flexbox https://github.com/google/flexbox-layout
+//    api 'com.google.android:flexbox:2.0.1'
+//    //EventBus
+//    api 'org.greenrobot:eventbus:3.2.0'
+//    //菊花
+//    api 'com.wang.avi:library:2.1.3'
+//    //侧滑返回
+//    api 'com.billy.android:smart-swipe:1.1.2'
+//    //android x环境下兼容NestedScrolling
+//    api 'com.billy.android:smart-swipe-x:1.1.0'
+//    //zxing二维码
+//    api 'com.google.zxing:core:3.4.0'
+//    api 'org.xutils:xutils:3.9.0'
 }
