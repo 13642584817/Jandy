@@ -114,6 +114,10 @@ class HalfRoundView : View {
 		val roundRadius = Math.min(screenWidth, screenHeight)/2
 		//左右边文字占用大小
 		val text = "9"
+		val textW = mTextPaint.measureText(
+				text,
+				0,
+				text.length)
 		mTextPaint.getTextBounds(text, 0, text.length, textBound)
 		var roundTop = 0f
 		var roundBottom = 0f
